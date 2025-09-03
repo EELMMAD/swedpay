@@ -1,0 +1,27 @@
+# Java / Maven / Gradle
+target/
+*.class
+*.log
+hs_err_pid*
+.springBeans
+
+# IntelliJ IDEA
+.idea/
+out/
+*.iml
+*.iws
+*.ipr
+
+# Node / Angular
+node_modules/
+dist/
+.cache/
+/.angular/
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# Docker / env
+*.env
+.env.*
