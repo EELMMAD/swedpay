@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/accountdb
+    username: account
+    password: account
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate.format_sql: true
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+server:
+  port: 8081
+jwt:
+  secret: "change-me-super-secret-key-please-change-it-32+chars"
+  expiration: 3600000
